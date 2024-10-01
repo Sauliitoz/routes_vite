@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 async function getPosts() {
-	const response = await fetch("http://localhost:5173/json/posts.json");
+	const response = await fetch("https://sauliitoz.github.io/routes_vite/json/posts.json");
 	return await response.json();
 }
 
